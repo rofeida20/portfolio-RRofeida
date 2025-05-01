@@ -21,13 +21,9 @@ window.onload = function () {
     section.classList.add("hidden");
     observer.observe(section);
   });
-  
-  // Bouton de remerciement
   function afficherMerci() {
     alert("Merci pour votre attention !");
   }
-  
-  // Confirmation à l’envoi du formulaire
   document.addEventListener("DOMContentLoaded", () => {
     const form = document.querySelector(".contact-form");
     form.addEventListener("submit", function (e) {
